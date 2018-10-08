@@ -1,7 +1,7 @@
 /*TypeScale http://type-scale.com/?size=20&scale=1.333&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family=%27Libre%20Baskerville%27,%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=#333*/
 
 body {
-    background-color: #bdd6c4;
+    background-color: #bcd6ce;
     font-family: 'Source Sans Pro';
     display: grid;
     grid-template-columns: 30px 2fr 2fr 2fr 2fr 2fr 2fr 30px;
@@ -67,6 +67,7 @@ header {
     padding: 0;
     margin-right: auto;
     margin-left: .5em;
+    font-weight: 300;
 }
 
 #navigation a {
@@ -142,13 +143,13 @@ header {
     font-family: 'Source Sans Pro', 'Lato', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 3rem;
-    margin: 20px 0 0 0;
+    margin: 20px 1em 0 .4em;
 }
 
 #intro p {
     grid-area: intro_paragraph;
     line-height: 1.5em;
-    margin-top: 30px;
+    margin: 30px 1em 0 1em;
 }
 
 #colors {
@@ -346,6 +347,10 @@ footer {
         margin-top: .4em;
     }
 
+    #page_body {
+        border-radius: 15px;
+    }
+
     .skills span {
         height: 190px;
         width: 190px;
@@ -353,6 +358,7 @@ footer {
 
     #intro h2{
         text-align: initial;
+        margin-left: 0;
     }
 
     #intro p {
@@ -360,7 +366,7 @@ footer {
         margin-top: 30px;
         text-align: initial;
         margin-right: 2em;
-        font-size: 1.333rem;
+        margin-left: 0;
     }
 
     .color {
@@ -409,8 +415,13 @@ footer {
         grid-template-columns: 50px 1fr 1fr 1fr 50px;
         grid-template-rows: 1fr 60px .8fr;
         grid-column-gap: 10px;
+        padding-top: 60px;
     }
 
+    #intro p {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
     #title {
         margin-top: 2.7em;
     }
@@ -483,6 +494,19 @@ footer {
             '. . . . intro_heading.'
             '. space1 space2 space3 intro_paragraph.'
             ;
+    }
+
+    .skills span {
+        height: 250px;
+        width: 250px;
+    }
+    
+    #intro h2 {
+        margin-left: 1.2em; 
+    }
+
+    #intro p {
+        margin-left: 2.5em;
     }
 }
 @media (min-width: 1850px) {

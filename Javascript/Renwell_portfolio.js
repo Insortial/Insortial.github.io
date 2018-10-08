@@ -11,7 +11,7 @@ $(document).ready(function () {
     });
 
     $(skills).each(function(i) {
-        $(this).delay(400*i).fadeIn();
+        $(this).delay(500*i).fadeIn();
     });
 
     $(color).each(function(i) {
